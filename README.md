@@ -54,37 +54,42 @@ Bookwise combines a book-entry form, a searchable collection table, SQLite persi
 
 Shows the book-entry form, search field, book table, and delete action.
 
-**Screenshot:** `screenshots/01-library-interface.png`
+<img width="900" height="630" alt="image" src="https://github.com/user-attachments/assets/54403f86-8085-4438-8985-9075fc96da07" />
+
 
 ### Adding a Book
 
 Shows form validation and adding a new book record.
 
-**Screenshot:** `screenshots/02-add-book.png`
+<img width="901" height="606" alt="image" src="https://github.com/user-attachments/assets/be05aa67-0c11-4227-85f0-4eac67c06763" />
+
 
 ### Searching the Collection
 
 Shows the table filtered by a title or author keyword.
 
-**Screenshot:** `screenshots/03-search-books.png`
+<img width="897" height="600" alt="image" src="https://github.com/user-attachments/assets/89b6a6bc-06aa-4c0d-a4b6-df5fd0eec189" />
+
 
 ### Editing a Book
 
 Double-click a row to edit the title, author, and publication year.
 
-**Screenshot:** `screenshots/04-edit-book.png`
+<img width="895" height="604" alt="image" src="https://github.com/user-attachments/assets/98d54713-898c-4246-b89f-112bde968620" />
 
 ### Deleting a Book
 
 Shows the selected-record deletion flow and confirmation dialog.
 
-**Screenshot:** `screenshots/05-delete-book.png`
+<img width="902" height="600" alt="image" src="https://github.com/user-attachments/assets/120133d3-a1a0-4de6-979a-7d831b9641a8" />
+
 
 ### CSV Export
 
 Shows the export page and save-file dialog.
 
-**Screenshot:** `screenshots/06-csv-export.png`
+<img width="903" height="599" alt="image" src="https://github.com/user-attachments/assets/7c73ed23-d9d2-4e2e-beda-066cf512636e" />
+
 
 ## 04. Installation & Usage
 
@@ -100,6 +105,7 @@ Shows the export page and save-file dialog.
 app-BookManager/
 ├── main.py
 ├── database.db          # Created automatically on first run
+├── my_book_collection.csv
 ├── screenshots/
 │   ├── 01-library-interface.png
 │   ├── 02-add-book.png
